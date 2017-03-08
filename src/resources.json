@@ -123,6 +123,17 @@
         "creates": ["likes"],
         "path": "/comments"
     },
+    "Currencies": {
+        "path": "/currencies",
+        "custom": {
+            "methods": {
+                "list": {
+                    "method": "GET",
+                    "path": ""
+                }
+            }
+        }
+    },
     "Dedications": {
         "basic": ["retrieve", "update"],
         "path": "/dedications"

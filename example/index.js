@@ -1,6 +1,6 @@
 /** Just for testing */
 
-import Classy from '../src/Classy';
+import Classy from '../src/Classy/main';
 import dotenv from 'dotenv';
 import colors from 'colors';
 
