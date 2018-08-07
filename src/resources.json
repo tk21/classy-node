@@ -265,7 +265,15 @@
     "Member": {
         "basic": [ "retrieve" ],
         "lists": [ "organizations", "fundraising-teams", "fundraising-pages" ],
-        "path": "/members"
+        "path": "/members",
+        "custom": {
+            "methods": {
+                "deactivate": {
+                    "method": "POST",
+                    "path": "/{id}/deactivate"
+                }
+            }
+        }
     },
     "Members": {
         "basic": [ "retrieve" ],
